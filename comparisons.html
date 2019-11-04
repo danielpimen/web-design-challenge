@@ -10,19 +10,17 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Web Visualization Dashboard</title>
+  <title>COMPARISON</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
  
 
-  <!-- Bootstrap CSS -->
+  <!-- Web Visualization CSS -->
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 
     crossorigin="anonymous">
-
-             
 
  
 
@@ -62,7 +60,7 @@
 
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
 
-              aria-haspopup="true" aria-expanded="false">
+              aria-haspopup="true" aria-expanded="false" style="color: black">
 
               Plots
 
@@ -70,7 +68,7 @@
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-              <a class="dropdown-item" href="max_temperature.html">Maximum Temperature</a>
+              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
 
               <a class="dropdown-item" href="humidity.html">Humidity</a>
 
@@ -110,44 +108,25 @@
 
     <div class="row">
 
-      <div class="col-lg-7 col-md-12">
+      <div>
 
         <!-- Left box  -->
 
         <div class="box">
 
-          <h3 class="title">Summary: Latitude vs. Multiple Weather Factors</h3>
+          <h3 class="title">Comparison</h3>
 
           <hr>
 
-          <img src="Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+          <p>Click each block for detail view</p>
 
-          <p><h6>The website shows change in weather as you move closer to the equator. Data was pulled from OpenWeatherMap API</h6></p>
+          <div class="container" style="padding-bottom: 40px;">
 
+            <div class="row">
 
-        </div>
+              <div class="col-lg-6" style="padding: 30px;">
 
-      </div>
-
-      <div class="col-lg-5 col-md-12">
-
-        <!-- Right Box -->
-
-        <div class="box">
-
-          <h5 class="title">DASHBOARD</h5>
-
-          <hr>
-
- 
-
- 
-
-          <div class="container">
-
-            <div class="row" style="padding-bottom: 30px;">
-
-              <div class="col-6">
+                <div class="title">vs. Max Temperature</div>
 
                 <a href="max_temperature.html">
 
@@ -157,7 +136,9 @@
 
               </div>
 
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+
+                <div class="title">vs. Humidity</div>
 
                 <a href="humidity.html">
 
@@ -171,9 +152,11 @@
 
  
 
-            <div class="row" style="padding-bottom: 30px;">
+            <div class="row">
 
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+
+                <div class="title">vs. Cloudiness</div>
 
                 <a href="cloudiness.html">
 
@@ -181,9 +164,13 @@
 
                 </a>
 
+ 
+
               </div>
 
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+
+                <div class="title">vs. Wind Speed</div>
 
                 <a href="wind_speed.html">
 
@@ -193,17 +180,9 @@
 
               </div>
 
- 
-
- 
-
             </div>
 
           </div>
-
- 
-
- 
 
         </div>
 
@@ -217,7 +196,7 @@
 
  
 
-  <!-- Bootstrap JS -->
+  <!-- Web Visualization Script -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 

@@ -10,7 +10,7 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Web Visualization Dashboard</title>
+  <title>Latitude VS Wind Speed</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,15 +22,9 @@
 
     crossorigin="anonymous">
 
-             
-
- 
-
   <!--CSS Link-->
 
   <link rel="stylesheet" type="text/css" href="style.css">
-
- 
 
 </head>
 
@@ -46,7 +40,7 @@
 
       <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude</a>
 
-      <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -70,13 +64,13 @@
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-              <a class="dropdown-item" href="max_temperature.html">Maximum Temperature</a>
+              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
 
               <a class="dropdown-item" href="humidity.html">Humidity</a>
 
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
 
-              <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+              <a class="dropdown-item active" href="wind_speed.html">Wind Speed</a>
 
             </div>
 
@@ -116,16 +110,15 @@
 
         <div class="box">
 
-          <h3 class="title">Summary: Latitude vs. Multiple Weather Factors</h3>
+          <h3 class="title">Wind Speed</h3>
 
           <hr>
 
-          <img src="Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+          <img src="Fig4.png" alt="Wind Speed Graph">
 
-          <p><h6>The website shows change in weather as you move closer to the equator. Data was pulled from OpenWeatherMap API</h6></p>
+          <p>There seem to be increase in Wind Speed as we move away from the equator.</p>
 
-
-        </div>
+       </div>
 
       </div>
 
@@ -135,13 +128,9 @@
 
         <div class="box">
 
-          <h5 class="title">DASHBOARD</h5>
+          <h5 class="title">Visualizations</h5>
 
           <hr>
-
- 
-
- 
 
           <div class="container">
 
@@ -169,8 +158,6 @@
 
             </div>
 
- 
-
             <div class="row" style="padding-bottom: 30px;">
 
               <div class="col-6">
@@ -183,27 +170,19 @@
 
               </div>
 
-              <div class="col-6">
+             <div class="col-6">
 
                 <a href="wind_speed.html">
 
-                  <img class="panel" src="Fig4.png" alt="Wind Speed Graph">
+                  <img class="panel active" src="Fig4.png" alt="Wind Speed Graph">
 
                 </a>
 
               </div>
 
- 
-
- 
-
             </div>
 
           </div>
-
- 
-
- 
 
         </div>
 
@@ -230,8 +209,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 
     crossorigin="anonymous"></script>
-
- 
 
 </body>
 

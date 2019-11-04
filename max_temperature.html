@@ -10,7 +10,7 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Web Visualization Dashboard</title>
+  <title>Latitude v Maximum Temperature</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,8 +21,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 
     crossorigin="anonymous">
-
-             
 
  
 
@@ -70,7 +68,7 @@
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 
-              <a class="dropdown-item" href="max_temperature.html">Maximum Temperature</a>
+              <a class="dropdown-item active" href="max_temperature.html">Max Temperature</a>
 
               <a class="dropdown-item" href="humidity.html">Humidity</a>
 
@@ -114,16 +112,17 @@
 
         <!-- Left box  -->
 
-        <div class="box">
+        <div class="box" style="padding-bottom: 5px;">
 
-          <h3 class="title">Summary: Latitude vs. Multiple Weather Factors</h3>
+          <h3 class="title">Max Temperature</h3>
 
           <hr>
 
-          <img src="Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+          <img src="Fig1.png" alt="Max Temperature Graph">
 
-          <p><h6>The website shows change in weather as you move closer to the equator. Data was pulled from OpenWeatherMap API</h6></p>
+          <p>Weather appears warmer.
 
+          </p>
 
         </div>
 
@@ -135,7 +134,7 @@
 
         <div class="box">
 
-          <h5 class="title">DASHBOARD</h5>
+          <h5 class="title">Visualizations</h5>
 
           <hr>
 
@@ -151,7 +150,7 @@
 
                 <a href="max_temperature.html">
 
-                  <img class="panel" src="Fig1.png" alt="Max Temperature Image">
+                  <img class="panel active" src="Fig1.png" alt="Max Temperature Image">
 
                 </a>
 
